@@ -1,0 +1,136 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url("/images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    font-family: "Poppins", sans-serif;   
+}
+.container {
+    display: flex;
+}
+.container_left {
+    width: 50%;
+    color: white;
+}
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 30%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+}
+.container_left p {
+    margin-left: 25%;
+}
+.container_right {
+    width: 50%;
+    text-align: left;
+}
+.top {
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 5px hsl(0, 13%, 56%);
+}
+.top p {
+    padding: 10px;
+}
+.top>p>span {
+    font-weight: 600;
+    
+}
+.bottom {
+    background-color: white;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 7px 5px hsl(0, 13%, 56%);
+}
+.bottom input {
+    width: 90%;
+    height: 50px;
+    border: 1px solid rgb(180, 175, 175);
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+#fname {
+    margin-top: 30px;
+}
+.container_small {
+    width: 70%;
+    height: 80%;
+    margin: 13% 15%;
+}
+button {
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 0px 7px 5px hsl(0, 13%, 56%);
+    width: 90%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    color: white;
+    font-weight: 600;
+}
+button:hover {
+    background-color: hsl(154, 59%, 31%);
+}
+form>p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+form>p>span {
+    color: red;
+    font-weight: 600;
+    
+}
+@media screen and (max-width: 375px) {
+    .container {
+        display: block;        
+    }
+    body {
+        background-image: url('/images/bg-intro-mobile.png');
+        text-align: center;
+    }
+    .container_left {
+        width: 100%;
+        text-align: center;
+    }
+    h2 {
+        margin: 100px 10px 20px 10px;
+    }
+    .container_left p {
+        margin: 10px 10px 100px 10px;
+    }
+    .container_right {
+        width: 100%;
+    }
+    .container_small {
+        width: 90%;
+        height: 100%;
+        margin: 0% 5% 10% 5%;
+    }
+    button {
+        margin-left: 17px;
+    }
+    .bottom {
+        height: 100%;
+    }
+    .bottom input {
+        margin-left: 17px;
+    }
+    form>p {
+        margin-bottom: 10px;
+    }
+}
