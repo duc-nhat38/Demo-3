@@ -57,13 +57,12 @@ h2 {
     width: 90%;
     height: 50px;
     border: 1px solid rgb(180, 175, 175);
-    border-radius: 10px;
-    margin-left: 25px;
-    margin-top: 25px;
+    border-radius: 10px;  
+    margin: 5% 5% 0% 5%;
     font-size: 25px;
 }
 #fname {
-    margin-top: 30px;
+    margin-top: 6%;
 }
 .container_small {
     width: 70%;
@@ -77,8 +76,7 @@ button {
     height: 40px;
     border: 1px solid;
     border-radius: 10px;
-    margin-top: 25px;
-    margin-left: 25px;
+    margin: 5% 5% 0% 5%;   
     color: white;
     font-weight: 600;
 }
@@ -88,7 +86,7 @@ button:hover {
 form>p {
     font-size: 10px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 3%;
 }
 form>p>span {
     color: red;
